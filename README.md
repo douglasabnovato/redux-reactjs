@@ -9,3 +9,5 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] como usar redux em uma aplicação de login e register ?
 
 - [ ] como mudar uma aplicação que já está funcionando com state tradicional ?
+
+:. Douglas 
