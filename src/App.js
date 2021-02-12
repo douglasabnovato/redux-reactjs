@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { clickButton } from './actions';
+import { clickButton } from './actions'; 
 
 class App extends Component {
 
@@ -13,7 +13,7 @@ class App extends Component {
     this.setState({
       inputValue: event.target.value
     })
-  }
+  } 
 
   render() {
 
@@ -34,7 +34,7 @@ class App extends Component {
         <button onClick={() => clickButton(inputValue)}>
           Click me!
         </button>
-        <h1>{newValue}</h1>
+        <h1>{newValue}</h1> 
       </div>
     );
   }  

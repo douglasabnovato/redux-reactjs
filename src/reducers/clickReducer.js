@@ -10,6 +10,6 @@ export const clickReducer = ( state = initialState, action ) => {
 				newValue: action.newValue				
 			};
 		default:
-			return state;
+			return state
 	}
 }; 
