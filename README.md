@@ -3,6 +3,7 @@ Redux + Reactjs
 O objetivo é implementar o redux em um módulo de login e register, pois essas informações iniciais serão usadas em diversos outros lugares na minha aplicação e por isso, conseguirei visualizar o redux crescendo sua atuação.
 
 - [x] implementar um demo para visualizar o fluxo do state.
+- [ ] etapas de configuração do redux + react, com bibliotecas e pacotes.
 
 - [ ] estudar a documentação do [redux.js.org](https://redux.js.org/introduction/getting-started).
 
