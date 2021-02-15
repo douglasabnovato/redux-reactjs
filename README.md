@@ -4,7 +4,10 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 
 - [x] implementar um demo para visualizar o fluxo do state.
 
-- [ ] estudar e implementar a documentação do [redux.js.org](https://redux.js.org/introduction/getting-started)
+- [ ] implementar a documentação do [redux.js.org](https://redux.js.org/introduction/getting-started)
+- [ ] Redux [read1](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+- [ ] Redux [read2](https://redux.js.org/tutorials/essentials/part-2-app-structure)
+- [ ] Redux [read3](https://redux.js.org/tutorials/essentials/part-3-data-flow)
 
 - [ ] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g)
 - [ ] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8)
