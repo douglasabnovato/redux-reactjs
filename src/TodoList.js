@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as todoActions from '../../actions/todos';
+import * as todoActions from './actions/todos';
 
 class TodoList extends Component {
+	
 	constructor(props){
 		super(props);
 		console.log(props);
