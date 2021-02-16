@@ -14,7 +14,6 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] Redux [play4](https://www.youtube.com/watch?v=q-If9n-tUyA)
 - [ ] Redux [play5](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [ ] Redux [play6](https://www.youtube.com/watch?v=6WB16wZS61c)
-
 - [ ] como usar redux em uma aplicação de login e register ?
 - [ ] como mudar para Redux uma aplicação que já está funcionando com state tradicional ?
 
