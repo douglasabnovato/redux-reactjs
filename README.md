@@ -8,7 +8,7 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] Redux [read2](https://redux.js.org/tutorials/essentials/part-2-app-structure) : DOING
 - [ ] Redux [read3](https://redux.js.org/tutorials/essentials/part-3-data-flow)
 - [ ] implementar tutorial de redux
-- [x] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g) : DOING
+- [x] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g) 
 - [x] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8) 
 - [ ] Redux [play3](https://www.youtube.com/watch?v=qU9DesjDJic)
 - [ ] Redux [play4](https://www.youtube.com/watch?v=q-If9n-tUyA)
@@ -17,9 +17,9 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] implementar redux em uma aplicação que já utiliza state do react
 - entender que ao clicar em um botão, disparamos uma action, o reducer ouvi essa action e dispara uma evolução do state correspondente.
 
-- [ ] criar action
-- [ ] criar o reducer
-- [ ] criar store
-- [ ] configurar ações e efeitos
+- [x] criar action
+- [x] criar o reducer
+- [x] criar store
+- [x] configurar ações e efeitos
 
 :. Douglas 
