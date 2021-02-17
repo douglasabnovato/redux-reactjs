@@ -15,11 +15,11 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] Redux [play5](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [ ] Redux [play6](https://www.youtube.com/watch?v=6WB16wZS61c)
 - [ ] implementar redux em uma aplicação que já utiliza state do react
-- entender que ao clicar em um botão, disparamos uma action, o reducer ouvi essa action e dispara uma evolução do state correspondente.
 
 - [x] criar action
 - [x] criar o reducer
 - [x] criar store
 - [x] configurar ações e efeitos
+- [x] entender que ao clicar em um botão, disparamos uma action, o reducer ouvi essa action e dispara uma evolução do state correspondente.
 
 :. Douglas 
