@@ -3,10 +3,10 @@
  * actions sidebar.js
  * features sidebar.js
 **/
-export default function sidebar(state = [], action){
-	return {
-		activeLesson: null,
-		activeModule: null,
+
+const INITIAL_STATE = {
+		activeLesson: {},
+		activeModule: {},
 		modules: [ 
 			{
 				id: 1,
@@ -26,4 +26,14 @@ export default function sidebar(state = [], action){
 			}
 		]  
 	};
+
+export default function sidebar(state = INITIAL_STATE, action){
+	if(action.type === 'TOGGLE_LESSON'){
+		return { 
+			...state, 
+			activeLesson: action.lesson, 
+			activeModule:action.module 
+		};
+	}
+	return state;
 }
