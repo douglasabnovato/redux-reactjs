@@ -1,6 +1,37 @@
-import { createStore } from 'redux';
-import rootReducers from './reducers';
+import { createStore } from "redux";
 
-const store = createStore(rootReducers);
+function reducer(){
+    return [ 
+        { 
+            id: 1,
+            title: 'Iniciando com react',
+            lessons:[
+                {
+                    id: 1,
+                    title: 'Primeira Aula'
+                },
+                {
+                    id: 2,
+                    title: 'Segunda Aula'
+                }
+            ]
+        },
+        { 
+            id: 2,
+            title: 'Aprendendo Redux',
+            lessons:[
+                {
+                    id: 3,
+                    title: 'Terceira Aula'
+                },
+                {
+                    id: 4,
+                    title: 'Quarta Aula'
+                }
+            ]
+        }
+    ];
+}
+const store = createStore(reducer);
 
 export default store;
