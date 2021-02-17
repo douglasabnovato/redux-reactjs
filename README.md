@@ -9,7 +9,7 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] Redux [read3](https://redux.js.org/tutorials/essentials/part-3-data-flow)
 - [ ] implementar tutorial de redux
 - [x] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g)
-- [ ] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8) : DOING
+- [x] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8) 
 - [ ] Redux [play3](https://www.youtube.com/watch?v=qU9DesjDJic)
 - [ ] Redux [play4](https://www.youtube.com/watch?v=q-If9n-tUyA)
 - [ ] Redux [play5](https://www.youtube.com/watch?v=7L7MhxjI4PE)
