@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import Sidebar from './components/Sidebar'; 
 import Video from './components/Video';
+import TodoList from './components/TodoList';
  
 export default class App extends Component { 
  
@@ -12,6 +13,7 @@ export default class App extends Component {
 				<Provider store={store}>
 					<Video /> 
 					<Sidebar /> 
+					<TodoList /> 
 				</Provider>
 			</div>
 		);
