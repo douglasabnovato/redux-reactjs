@@ -1,10 +1,18 @@
 import React from "react";
+import '../style.css';
+
 import { connect } from "react-redux";
 
-const Video = ({ activeModule, activeLesson }) => (
+import Counter from '../Counter';
+
+const Video = ({ activeModule, activeLesson }) => ( 
     <div>
-        <strong>Módulo {activeModule.title}</strong>
-        <span>Aula {activeLesson.title}</span>
+        <div class="container"> 
+            <p>Componente A.</p>
+            <p><strong>Módulo: {activeModule.title}</strong></p>
+            <p><span>Aula: {activeLesson.title}</span></p>             
+        </div> 
+        <Counter /> 
     </div>
 );
 

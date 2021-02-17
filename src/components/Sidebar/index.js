@@ -1,10 +1,13 @@
 import React from 'react';
+import '../style.css';
+
 import { connect } from 'react-redux';
 import * as CourseActions from '../../store/actions/course';
 import { bindActionCreators } from 'redux';
 
 const Sidebar = ({ modules, toggleLesson }) => (
-	<aside>
+	<aside class="container">
+		<p>Componente B.</p>
 		{ modules.map(module => (
 			<div key={ module.id }>
 				<strong>{ module.title }</strong>
@@ -17,8 +20,8 @@ const Sidebar = ({ modules, toggleLesson }) => (
 					)) }
 				</ul>
 			</div>
-		))}
-	</aside>
+		))} 
+	</aside> 
 );
 
 const mapStateToProps = state => ({
