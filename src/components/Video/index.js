@@ -3,8 +3,6 @@ import '../style.css';
 
 import { connect } from "react-redux";
 
-import Counter from '../Counter';
-
 const Video = ({ activeModule, activeLesson }) => ( 
     <div>
         <div class="container"> 
@@ -12,7 +10,6 @@ const Video = ({ activeModule, activeLesson }) => (
             <p><strong>Módulo: {activeModule.title}</strong></p>
             <p><span>Aula: {activeLesson.title}</span></p>             
         </div> 
-        <Counter /> 
     </div>
 );
 

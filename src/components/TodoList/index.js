@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../style.css';
+
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as todoActions from '../../store/actions/todos';
@@ -7,9 +8,8 @@ import * as todoActions from '../../store/actions/todos';
 class TodoList extends Component {
 
     constructor(props) {
-        super(props);
-        console.log(props);
-    }
+        super(props); 
+    };
 
     state = {
         newTodoText: '',
@@ -24,6 +24,7 @@ class TodoList extends Component {
         return (
             <div class="container">
                 <p>Componente C.</p>
+                <button onClick={this.addNewTodo}>Novo Todo</button> 
                 <ul>
                     {this.props.todos.map(todo => (
                         <li key={todo.id}>{todo.text}</li>
@@ -33,8 +34,7 @@ class TodoList extends Component {
                     type="text"
                     value={this.state.newTodoText}
                     onChange={(e) => this.setState({ newTodoText: e.target.value })}
-                />
-                <button onClick={this.addNewTodo}>Novo Todo</button> 
+                />                
             </div>
         );
     }

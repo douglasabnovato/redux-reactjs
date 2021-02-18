@@ -12,6 +12,9 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 - [ ] Redux [play4](https://www.youtube.com/watch?v=q-If9n-tUyA)
 - [ ] Redux [play5](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [ ] Redux [play6](https://www.youtube.com/watch?v=6WB16wZS61c)
+- [ ] Redux [play7](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
+- [ ] Redux [play8](https://www.facebook.com/rocketseat/videos/2287550024663055/)
+- [ ] Redux [play9](https://www.youtube.com/watch?v=OXxul6AvXNs)
 
 - [x] criar action
 - [x] criar o reducer
