@@ -5,7 +5,7 @@ export default function todos(state = [], action) {
                 ...state,
                 {
                     id: Math.random(),
-                    text: action.text,
+                    text: action.payload.text,
                 }
             ]
         default:
