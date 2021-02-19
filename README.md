@@ -7,10 +7,10 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Conceitos
 
 - [ ] a documentação do [redux.js.org](https://redux.js.org/introduction/getting-started)
-- [x] Redux [read1](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
-- [ ] Redux [read2](https://redux.js.org/tutorials/essentials/part-2-app-structure)
-- [ ] Redux [read3](https://redux.js.org/tutorials/essentials/part-3-data-flow)
-- [x] Redux [read4](https://medium.com/@arojunior/persistindo-o-estado-da-aplica%C3%A7%C3%A3o-com-redux-e-localstorage-8cdffa9d5c6f) 
+- [x] [Redux Essentials, Parte 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
+- [ ] [Redux Essentials, Parte 2: Redux App Structure](https://redux.js.org/tutorials/essentials/part-2-app-structure)
+- [ ] [Redux Essentials, Part 3: Basic Redux Data Flow](https://redux.js.org/tutorials/essentials/part-3-data-flow)
+- [x] [Persistindo o estado da aplicação com Redux e localStorage](https://medium.com/@arojunior/persistindo-o-estado-da-aplica%C3%A7%C3%A3o-com-redux-e-localstorage-8cdffa9d5c6f) 
 
 ### Tutoriais
 
@@ -32,5 +32,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar action
 - [x] criar o reducer
 - [x] criar store 
+- [ ] acessar o state com redux de seu componente
+- [ ] acessar o state com redux de qualquer outro componente
+- [ ] gerir state async
 
 :. Douglas 
