@@ -6,7 +6,7 @@ import * as CourseActions from '../../store/actions/course';
 import { bindActionCreators } from 'redux';
 
 const Sidebar = ({ modules, toggleLesson }) => (
-	<aside class="container">
+	<aside className="container">
 		<p>Componente B.</p>
 		{ modules.map(module => (
 			<div key={ module.id }>

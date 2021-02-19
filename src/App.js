@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 import Video from './components/Video';
 import TodoList from './components/TodoList';
 import Counter from './components/Counter';
-import Painel from './components/Painel';
+import Painel from './components/Painel'; 
  
 export default class App extends Component { 
 	render(){
@@ -16,7 +16,7 @@ export default class App extends Component {
 					<Video /> 
 					<Sidebar /> 
 					<TodoList /> 
-					<Counter /> 
+					<Counter />  
 					<Painel /> 
 				</Provider>
 			</div>

@@ -7,11 +7,7 @@ import { connect } from 'react-redux';
 import * as todoActions from '../../store/actions/todos';
 
 class TodoList extends Component {
-  constructor(props) {
-    super(props); 
-    console.log(props);
-  }
-
+  
   state = {
     newTodoText: '',
   };
@@ -24,7 +20,7 @@ class TodoList extends Component {
 
   render() {
     return (
-        <div class="container">
+        <div className="container">
             <p>Componente C.</p>
             <button onClick={this.addNewTodo}>Novo todo</button>
             <ul>

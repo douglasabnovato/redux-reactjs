@@ -4,7 +4,7 @@ import '../style.css';
 import { connect } from 'react-redux';
 
 const Counter = (props) => (
-    <div class="container">
+    <div className="container">
         <p>Componente D.</p>
         <p>Você tem <span>{props.todos.length}</span>todos.</p> 
     </div>
