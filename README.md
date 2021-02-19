@@ -12,7 +12,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [ ] [Redux Essentials, Part 3: Basic Redux Data Flow](https://redux.js.org/tutorials/essentials/part-3-data-flow)
 - [x] [Persistindo o estado da aplicação com Redux e localStorage](https://medium.com/@arojunior/persistindo-o-estado-da-aplica%C3%A7%C3%A3o-com-redux-e-localstorage-8cdffa9d5c6f) 
 
-### Tutoriais
+### Tutoriais 
 
 - [x] [React JS - MELHOR GUIA para Iniciantes!](https://www.youtube.com/watch?v=Ws9WVHhNq5M) 
 - [x] [CodeQuinta #1 - Arquitetura Flux com Redux do zero](https://www.youtube.com/watch?v=69e1MoUWE1g) 
