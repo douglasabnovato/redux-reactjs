@@ -27,12 +27,16 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Tarefas 
 
-- [x] props e state
-- [x] criar action
+- [x] props e state 
+- [x] criar o store
+- [x] criar a action
 - [x] criar o reducer
-- [x] criar store 
+- [x] criar o sagas
 - [ ] acessar o state com redux de seu componente
 - [ ] acessar o state com redux de qualquer outro componente
-- [ ] gerir state async
+
+### Objetivo
+
+- [ ] Implementar Redux no module
 
 :. Douglas 
