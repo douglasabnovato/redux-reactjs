@@ -1,6 +1,8 @@
 ## Redux + Reactjs
 
-O objetivo é implementar o redux em um módulo de login e register, pois essas informações iniciais serão usadas em diversos outros lugares na minha aplicação e por isso, conseguirei visualizar o redux crescendo sua atuação.
+O objetivo é implementar o redux nos módulos que necessitam de gerenciamento do fluxo de informações, pois essas informações iniciais são usadas em diversos outros componentes.
+
+Compartilhar os states entre os componentes criados de forma mais organizada e com mais clareza do fluxo na aplicação e sua regra de negócio. 
 
 ### Conceitos
 
@@ -12,7 +14,6 @@ O objetivo é implementar o redux em um módulo de login e register, pois essas 
 
 ### Tutoriais
 
-- [ ] compartilhar os states entre os componentes criados 
 - [x] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g) 
 - [x] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8) 
 - [ ] Redux [play3](https://www.youtube.com/watch?v=qU9DesjDJic) : DOING  
