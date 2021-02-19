@@ -1,21 +1,29 @@
-import delay from 'redux-saga'; 
 import { takeEvery, put, call } from 'redux-saga/effects';
 
-function apiGet(text){
+function apiGet(text, length){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(text + ' da Rocketseat.');
+            resolve([
+                { id: 1, text: 'Fazer café 1.'},
+                { id: 2, text: 'Fazer café 2.'},
+                { id: 3, text: 'Fazer café 3.'},
+                { id: 4, text: 'Fazer café 4.'},
+            ]);
         }, 2000);
     });  
 }
 
-function* asyncAddTodo(action){
-    const response = yield call(apiGet, action.payload.text);
-    yield put({ type:'ADD_TODO', payload: { text: response }});
+function* getTodoList(){
+    try {
+        const response = yield call(apiGet);
+        yield put({ type:'SUCCESS_TODO_LIST', payload: { data: response }});
+    } catch (err) {
+        yield put({ type:'FAILURE_TODO_LIST' });
+    }
 } 
 
 export default function* root(){
     yield[
-        takeEvery('ASYNC_ADD_TODO', asyncAddTodo)
+        takeEvery('REQUEST_TODO_LIST', getTodoList)
     ];
 } 
