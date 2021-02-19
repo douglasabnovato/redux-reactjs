@@ -6,7 +6,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Conceitos
 
-- [ ] a documentação do [redux.js.org](https://redux.js.org/introduction/getting-started)
+- [ ] [a documentação do redux.js.org](https://redux.js.org/introduction/getting-started)
 - [x] [Redux Essentials, Parte 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
 - [ ] [Redux Essentials, Parte 2: Redux App Structure](https://redux.js.org/tutorials/essentials/part-2-app-structure)
 - [ ] [Redux Essentials, Part 3: Basic Redux Data Flow](https://redux.js.org/tutorials/essentials/part-3-data-flow)
@@ -14,17 +14,16 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Tutoriais
 
-- [x] Redux [play1](https://www.youtube.com/watch?v=69e1MoUWE1g) 
-- [x] Redux [play2](https://www.youtube.com/watch?v=u99tNt3TZf8) 
-- [ ] Redux [play3](https://www.youtube.com/watch?v=qU9DesjDJic) : DOING  
-- [ ] Redux [play4](https://www.youtube.com/watch?v=q-If9n-tUyA)
-- [ ] Redux [play5](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
-- [ ] Redux [play6](https://www.youtube.com/watch?v=OXxul6AvXNs)
-- [ ] Redux [play7](https://www.youtube.com/watch?v=7L7MhxjI4PE)
-- [ ] Redux [play8](https://www.youtube.com/watch?v=6WB16wZS61c)
-- [ ] Redux [play9](https://www.facebook.com/rocketseat/videos/2287550024663055/)
-- [x] Redux [play10](https://www.youtube.com/watch?v=1xbFstDfUXs)
-- [x] Redux [play11](https://www.youtube.com/watch?v=Ws9WVHhNq5M) 
+- [x] [React JS - MELHOR GUIA para Iniciantes!](https://www.youtube.com/watch?v=Ws9WVHhNq5M) 
+- [x] [CodeQuinta #1 - Arquitetura Flux com Redux do zero](https://www.youtube.com/watch?v=69e1MoUWE1g) 
+- [x] [Desvendando o Redux na prática](https://www.youtube.com/watch?v=u99tNt3TZf8) 
+- [ ] [CodeQuinta #3 - Async com Redux Saga](https://www.youtube.com/watch?v=qU9DesjDJic) : DOING  
+- [ ] [Organizando o Redux com Duck Pattern e Redux Sauce](https://www.youtube.com/watch?v=q-If9n-tUyA)
+- [ ] [Persistindo store do Redux no ReactJS com Redux Persist](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
+- [ ] [TypeScript com ReactJS, Redux e Redux Saga](https://www.youtube.com/watch?v=OXxul6AvXNs)
+- [ ] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
+- [ ] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
+- [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs)
 
 ### Tarefas 
 
