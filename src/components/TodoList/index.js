@@ -21,7 +21,7 @@ class TodoList extends Component {
   render() {
     return (
         <div className="container">
-            <p>Componente C.</p>
+            <h3>Componente C</h3>
             <button onClick={this.addNewTodo}>Novo todo</button>
             <ul>
             { this.props.todos.map(todo => (

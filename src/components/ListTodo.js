@@ -3,14 +3,15 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as ListActions from '../store/actions/listtodos';
 
-const ListTodo = ({listtodos, addListtodo}) => (
+const ListTodo = ({listtodos, addListTodo}) => (
     <div className="container">
+        <h3>Componente E</h3>
         <ul>
             {listtodos.map(listtodo => (
                 <li key={listtodo.id}>{listtodo.text}</li>
             )) }        
         </ul>
-        <button onClick={() => addListtodo('Fazer Café')}>Novo Todo</button>
+        <button onClick={() => addListTodo('Fazer Café !!')}>Novo Todo</button>
     </div>
 );
 

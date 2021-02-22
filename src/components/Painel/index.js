@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 const Painel = (props, activeModule, activeLesson ) => ( 
     <div>
         <div className="container"> 
-            <p>Componente Painel</p>
+            <h3>Componente Painel</h3>
             <p>Componente A</p>  
             <p>Exibir o module e a lesson!</p>  
             <p>Componente B.</p>  

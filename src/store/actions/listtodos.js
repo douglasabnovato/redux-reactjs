@@ -1,4 +1,4 @@
-export function addListtodo(text){
+export function addListTodo(text){
     return{
         type: 'ADD_LISTTODO',
         payload: {

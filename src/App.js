@@ -15,11 +15,11 @@ export default class App extends Component {
 		return (
 			<div className="App"> 
 				<Provider store={store}>
+					<Painel /> 
 					<Video /> 
 					<Sidebar /> 
 					<TodoList /> 
-					<Counter />  
-					<Painel /> 
+					<Counter />   
 					<ListTodo /> 
 				</Provider>
 			</div>
