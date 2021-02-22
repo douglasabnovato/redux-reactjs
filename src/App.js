@@ -7,6 +7,8 @@ import Video from './components/Video';
 import TodoList from './components/TodoList';
 import Counter from './components/Counter';
 import Painel from './components/Painel'; 
+
+import ListTodo from './components/ListTodo';
  
 export default class App extends Component { 
 	render(){
@@ -18,6 +20,7 @@ export default class App extends Component {
 					<TodoList /> 
 					<Counter />  
 					<Painel /> 
+					<ListTodo /> 
 				</Provider>
 			</div>
 		);
