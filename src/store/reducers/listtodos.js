@@ -1,4 +1,4 @@
-export default function listtodos(state = [], action) { 
+export default function addListTodo(state = [], action) { 
     switch (action.type) {
         case 'ADD_LISTTODO': 
             return [
