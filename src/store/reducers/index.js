@@ -2,10 +2,10 @@ import { combineReducers } from 'redux';
 
 import course from './course'; 
 import todos from './todos';
-import listtodo from './listtodo';
+import listtodos from './listtodos';
 
 export default combineReducers({
     course,
     todos,
-    listtodo,
+    listtodos,
 });

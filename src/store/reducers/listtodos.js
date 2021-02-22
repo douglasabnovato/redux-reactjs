@@ -1,6 +1,6 @@
-export default function listtodo(state = [], action) {
+export default function listtodos(state = [], action) {
     switch (action.type) {
-        case 'ADD_TODO':
+        case 'ADD_LISTTODO':
             
             return [
                 ...state,
