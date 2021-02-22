@@ -15,7 +15,7 @@ export default class App extends Component {
 		return (
 			<div className="App"> 
 				<Provider store={store}>
-					<Painel /> 
+					<Painel />  
 					<Video /> 
 					<Sidebar /> 
 					<TodoList /> 
