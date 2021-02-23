@@ -12,7 +12,7 @@ export const { Types, Creators } = createActions({
 /**
  * Handlers
  */
-const INITIAL_STATE = [];
+const INITIAL_STATE = []; 
 
 const add = (state = INITIAL_STATE, action) => [
   ...state,
