@@ -6,6 +6,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Conceitos
 
+- [ ] [a documentação do reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
 - [ ] [a documentação do redux.js.org](https://redux.js.org/introduction/getting-started)
 - [ ] [a documentação do redux-saga](https://redux-saga.js.org/)
 - [x] [Redux Essentials, Parte 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
