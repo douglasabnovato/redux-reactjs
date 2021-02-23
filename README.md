@@ -24,10 +24,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [ ] [TypeScript com ReactJS, Redux e Redux Saga](https://www.youtube.com/watch?v=OXxul6AvXNs)
 - [ ] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [ ] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
-- [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs)
-
-Futebol List
-Desenvolvedor List
+- [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs) 
 
 ### Tarefas 
 
