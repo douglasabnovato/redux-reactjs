@@ -1,49 +1,54 @@
-import React, { Component } from 'react';
-import '../style.css';
+import React, { Component } from "react";
 
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { Creators as TodoActions } from "../../store/ducks/todos"; 
 
-import * as todoActions from '../../store/actions/todos';
+import "./styles.css";
 
 class TodoList extends Component {
-  
-  state = {
-    newTodoText: '',
-  };
+  handleSubmit = e => {
+    e.preventDefault();
 
-  addNewTodo = () => {
-    this.props.addTodo(this.state.newTodoText);
+    this.props.addTodo(this.input.value);
 
-    this.setState({ newTodoText: '' });
+    this.input.value = "";
   };
 
   render() {
-    
+    const { todos, toggleTodo, removeTodo } = this.props;
+
     return (
-        <div className="container">
-            <h3>Componente C</h3>
-            <button onClick={this.addNewTodo}>Novo todo</button>
-            <ul>
-            { this.props.todos.map(todo => (
-                <li key={todo.id}>{todo.text}</li>
-            )) }
-            </ul> 
-            <input
-                type="text"
-                value={this.state.newTodoText}
-                onChange={(e) => this.setState({ newTodoText: e.target.value })}
-            />
-      </div>
+      <section>
+        <form onSubmit={this.handleSubmit}>
+          <input ref={el => (this.input = el)} />
+          <button type="submit">Novo</button>
+        </form>
+
+        <ul>
+          {todos.map(todo => (
+            <li key={todo.id}>
+              {todo.complete ? <s>{todo.text}</s> : todo.text}
+              <div>
+                <button onClick={() => toggleTodo(todo.id)}>Toggle</button>
+                <button onClick={() => removeTodo(todo.id)}>Remove</button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
     );
   }
 }
 
 const mapStateToProps = state => ({
-  todos: state.todos,
+  todos: state.todos
 });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators(todoActions, dispatch);
+  bindActionCreators(TodoActions, dispatch);
 
-export default connect(mapStateToProps, mapDispatchToProps)(TodoList);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoList);

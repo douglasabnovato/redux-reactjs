@@ -1,22 +1,7 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux'; 
-import createSagaMiddleware from 'redux-saga';
+import { createStore } from "redux";
 
-import course from './reducers/course'; 
-import todos from './reducers/todos';
-import listtodos from './reducers/listtodos';
-import rootSaga from './sagas/sagas';
+import reducers from "./ducks";
 
-const sagaMiddleware = createSagaMiddleware();
+const store = createStore(reducers);
 
-const store = createStore(
-    combineReducers({
-        course,
-        todos,
-        listtodos,
-    }),
-    applyMiddleware(sagaMiddleware),
-);  
-
-sagaMiddleware.run(rootSaga);
-
-export default store;  
+export default store;
