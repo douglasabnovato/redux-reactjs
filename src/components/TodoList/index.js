@@ -20,6 +20,10 @@ class TodoList extends Component {
 
     return (
       <section>
+        <div class="text-title">
+          <h4>Developers</h4>
+          <p>Lista de desenvolvedores</p>
+        </div>
         <form onSubmit={this.handleSubmit}>
           <input ref={el => (this.input = el)} />
           <button type="submit">Novo</button>
