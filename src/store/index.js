@@ -6,7 +6,7 @@ import rootReducer from "./ducks";
 
 const persistConfig = {
     key: 'root',
-    storage,
+    storage, 
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

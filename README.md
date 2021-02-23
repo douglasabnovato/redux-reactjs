@@ -20,7 +20,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Desvendando o Redux na prática](https://www.youtube.com/watch?v=u99tNt3TZf8) 
 - [x] [CodeQuinta #3 - Async com Redux Saga](https://www.youtube.com/watch?v=qU9DesjDJic) 
 - [x] [Organizando o Redux com Duck Pattern e Redux Sauce](https://www.youtube.com/watch?v=q-If9n-tUyA) 
-- [ ] [Persistindo store do Redux no ReactJS com Redux Persist](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
+- [x] [Persistindo store do Redux no ReactJS com Redux Persist](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
 - [ ] [TypeScript com ReactJS, Redux e Redux Saga](https://www.youtube.com/watch?v=OXxul6AvXNs)
 - [ ] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [ ] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
