@@ -7,6 +7,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Conceitos
 
 - [ ] [a documentação do redux.js.org](https://redux.js.org/introduction/getting-started)
+- [ ] [a documentação do redux-saga](https://redux-saga.js.org/)
 - [x] [Redux Essentials, Parte 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
 - [ ] [Redux Essentials, Parte 2: Redux App Structure](https://redux.js.org/tutorials/essentials/part-2-app-structure)
 - [ ] [Redux Essentials, Part 3: Basic Redux Data Flow](https://redux.js.org/tutorials/essentials/part-3-data-flow)
