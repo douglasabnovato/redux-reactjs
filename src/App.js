@@ -1,16 +1,20 @@
-import React, { Component } from 'react';
-  
+import React, { Component } from 'react'; 
 import { Provider } from 'react-redux';  
+import { PersistGate } from 'redux-persist/integration/react';  
 
-import store from './store'; 
+import {store, persistor} from './store'; 
 
-import TodoList from './components/TodoList'; 
+import DevList from './components/DevList';  
+
+import "./global.css";
 
 export default class App extends Component { 
 	render(){
 		return ( 
 			<Provider store={store}> 
-				<TodoList />  
+				<PersistGate loading={null} persistor={persistor}>
+					<DevList />	
+				</PersistGate> 
 			</Provider> 
 		);
 	}

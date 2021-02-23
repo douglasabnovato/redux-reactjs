@@ -6,7 +6,7 @@ import { Creators as TodoActions } from "../../store/ducks/todos";
 
 import "./styles.css";
 
-class TodoList extends Component {
+class DevList extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
@@ -55,4 +55,4 @@ const mapDispatchToProps = dispatch =>
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TodoList);
+)(DevList);

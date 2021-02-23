@@ -35,6 +35,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar o sagas
 - [ ] acessar o state com redux de seu componente
 - [ ] acessar o state com redux de qualquer outro componente
+- [ ] devList e entList: manipular states entre componentes
 
 ### Objetivo
 
