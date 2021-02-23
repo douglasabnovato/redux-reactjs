@@ -11,10 +11,17 @@ export default function GitHooks(){
   }, []);
   
   return ( 
+    <section>
+    <div class="text-title">
+      <h4>Github Repos</h4>
+      <p>Lista de Projetos</p>
+    </div> 
+
     <ul>
       { repositories.map(repo => (
         <li key = { repo.id }>{repo.name}</li>
       ))}
     </ul>  
+  </section>  
   );
 }

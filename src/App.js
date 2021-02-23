@@ -7,7 +7,6 @@ import {store, persistor} from './store';
 import DevList from './components/DevList';  
 import GitHooks from './components/GitHooks';
 
-import "./global.css";
 
 export default class App extends Component { 
 	render(){
