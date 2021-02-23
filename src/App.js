@@ -6,6 +6,7 @@ import {store, persistor} from './store';
 
 import DevList from './components/DevList';  
 import GitHooks from './components/GitHooks';
+import Location from './components/Location';
 
 
 export default class App extends Component { 
@@ -15,7 +16,8 @@ export default class App extends Component {
 				<PersistGate loading={null} persistor={persistor}>
 					<DevList />	
 				</PersistGate> 
-				<GitHooks />	
+				<GitHooks />
+				<Location />
 			</Provider> 
 		);
 	}
