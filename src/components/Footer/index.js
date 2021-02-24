@@ -6,7 +6,7 @@ import Contact from '../Contact';
 export default function Footer(){ 
 
   return ( 
-    <div>
+    <div className='footer-default-footer'>
       <SiteMap />
       <Contact />
     </div>    
