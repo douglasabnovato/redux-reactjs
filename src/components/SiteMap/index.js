@@ -435,7 +435,7 @@ export default function SiteMap() {
                         </div>
                         <div class="social--images">
                             <a href="https://www.facebook.com/pontofrio" class="images--facebook">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <img src=""/>
                             </a>
                             <a href="https://twitter.com/pontofrio" class="images--twitter">
                                 <img src="/_next/static/footer.66d3ceb5.png"/>

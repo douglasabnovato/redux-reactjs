@@ -37,6 +37,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [ ] acessar o state com redux de seu componente
 - [ ] acessar o state com redux de qualquer outro componente
 - [ ] devList e entList: manipular states entre componentes
+- [ ] construindo uma aplicação para testar módulos do nosso painel.
 
 ### Objetivo
 
