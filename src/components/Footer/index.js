@@ -1,13 +1,14 @@
 import React from 'react';
 
+import SiteMap from '../SiteMap'; 
+import Contact from '../Contact'; 
+
 export default function Footer(){ 
 
   return ( 
-    <section>  
-        <div>  
-            <span>Footer !</span>
-            <p>Mapa do site.</p>
-        </div> 
-    </section>  
+    <div>
+      <SiteMap />
+      <Contact />
+    </div>    
   );
 }

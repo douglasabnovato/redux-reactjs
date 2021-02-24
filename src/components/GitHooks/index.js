@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'; 
 import { FaRegStar } from "react-icons/fa";
 
+import './styles.css';
+
 export default function GitHooks(){
   
   const [repositories, setRepositories] = useState([]); 
