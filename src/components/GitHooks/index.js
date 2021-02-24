@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
+import { FaRegStar } from "react-icons/fa";
 
 export default function GitHooks(){
   
@@ -28,16 +29,20 @@ export default function GitHooks(){
       <div class="text-title">
         <h4>Github Repos</h4>
         <p>Lista de Projetos</p>
-      </div>  
+      </div>        
       <ul>
-        { repositories.map(repo => (
-          <li key = { repo.id }>
-            {repo.name}
-            {repo.favorite && <span>(Favorito)</span>}
-            <button onClick={() => handleFavorite(repo.id)}>Favoritar</button>
-          </li>
+        { repositories.map(repo => ( 
+          <div>      
+            <li key = { repo.id }>
+              <div>{repo.name}</div>
+              <div class="repos-star">
+                {repo.favorite && <span><FaRegStar/></span>}
+                <button onClick={() => handleFavorite(repo.id)}>Favoritar</button>
+              </div>
+            </li>
+          </div>   
         ))}
-      </ul>  
+      </ul> 
   </section>  
   );
 }
