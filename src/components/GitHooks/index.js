@@ -34,7 +34,7 @@ export default function GitHooks(){
         { repositories.map(repo => ( 
           <div>      
             <li key = { repo.id }>
-              <div>{repo.name}</div>
+              {repo.name} 
               <div class="repos-star">
                 {repo.favorite && <span><FaRegStar/></span>}
                 <button onClick={() => handleFavorite(repo.id)}>Favoritar</button>

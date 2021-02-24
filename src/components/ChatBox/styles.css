@@ -1,66 +1,63 @@
-
 .chatbox{  
     width: 100%;
-    align-self: baseline;
-
-    flex-direction: column;
-    max-width: none;
-
+    color: #ffffff;
 }  
 
 .chatbox-container{  
-   margin-left: 30%; 
-   display: inline-flex;
+    color: #ffffff; 
+    font-family: "Ubuntu", sans-serif;
+    padding: 3px 4px 2px 25%;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }  
+
+.chatbox-container div{  
+    align-self: baseline;
+} 
 
 .chatbox-message{
     display: grid;
-    color: #ffffff;
-    font-family: "Ubuntu", sans-serif;
+    margin-right: 40px;
 }
 
 .chatbox-message span{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .chatbox-message p{  
     margin-top: 13px;
     font-weight: 400;
-    font-size: 16px; 
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+    font-size: 16px;
+    text-align: justify; 
+} 
 
 .chatbox-button{
-    width: 100%;
-    margin-top: 45px;
-    margin-left: 45px;
+    display: block;
 }
 
-.chatbox-button {
+.button-container { 
     color: white;
     background-color: transparent;
     border: 1px solid white;
     padding: 10px 70px;
     height: fit-content;
-    font-size: 12px;
     transition: all 0.4s;
     vertical-align: middle;
-    text-align: center; 
+    text-align: center;
+    color: #ffffff;
     box-sizing: border-box; 
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 1000; 
+    font-weight: 900;
+    display: inline-flex;
     border-radius: 32px;
-}
-
-.chatbox-button a{
+    font-size: 12px;
     cursor: pointer;
+} 
+
+.button-container:hover {
+    color: #7159c1;
+    background-color: white; 
 }

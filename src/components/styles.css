@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   background: #604aa9;
   padding: 30px;
@@ -35,14 +35,20 @@ section form input {
 }
 
 section form button {
-  width: 100px;
-  border: 0;
-  border-radius: 4px;
-  background: #a0e03a;
-  font-weight: bold;
   color: #222;
+  background: #a0e03a;
+  width: 100px; 
+  border-radius: 4px; 
+  font-weight: bold; 
   font-size: 16px;
   margin-left: 10px;
+  border: 2px solid #a0e03a;
+  cursor: pointer;
+}
+
+section form button:hover {
+  color: white;
+  background: transparent;
 }
 
 section ul {
@@ -68,13 +74,20 @@ section ul li + li {
 }
 
 section ul li button {
-  border: 0;
   background: #fff;
+  border: 0; 
   border-radius: 4px;
   padding: 6px 10px;
   font-weight: bold;
   font-size: 12px;
   margin-left: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+section ul li button:hover {
+  color: white;
+  background: transparent;
 }
 
 .repos-star button{
