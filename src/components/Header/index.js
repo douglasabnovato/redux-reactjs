@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaRegStar } from "react-icons/fa"; 
+import React from 'react'; 
 import LogoNvoip from '../../assets/logo-nvoip-220x51-trans.png';
 
 import './styles.css';
