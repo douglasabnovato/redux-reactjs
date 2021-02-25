@@ -1,5 +1,5 @@
-import React from 'react';  
-
+import React from 'react';
+import imagesFooter from '../../assets/footer.66d3ceb5.png';
 import './styles.css';
 
 export default function SiteMap() {
@@ -407,15 +407,16 @@ export default function SiteMap() {
                                     <span>Para RJ E Região</span>
                                 </div>
                             </div>
-                            <div className="images--or"> 
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                            <div className="images--or">
+                                <img src={imagesFooter} alt="or"/>
                             </div>
                             <div>
                                 <div className="phone">
                                     <a href="tel:4002-3388">4002-3388</a>
                                 </div>
                                 <div> 
-                                    <span>Clientes das Lojas Físicas
+                                    <span>
+                                        Clientes das Lojas Físicas
                                         <b> CRC Pontofrio </b>
                                         -
                                         <br/>
@@ -429,34 +430,34 @@ export default function SiteMap() {
                             </div>
                         </div>
                     </div>{/*end-atendimento*/}
-                    <div className="footer-default--social">{/*Redes Sociais*/}
+                    <div className="footer-default---social">{/*Redes Sociais*/}
                         <div className="title">
                             Redes Sociais
                         </div>
                         <div>
                             Acompanhe todas as ofertas e novidades do site do Pinguim.
                         </div>
-                        <div className="social--images">
-                            <a href="https://www.facebook.com/pontofrio" className="images--facebook">
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                        <div class="social--images">
+                            <a href="https://www.facebook.com/pontofrio" class="images--facebook">
+                                <img src={imagesFooter} alt="facebook"/>
                             </a>
-                            <a href="https://twitter.com/pontofrio" className="images--twitter">
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                            <a href="https://twitter.com/pontofrio" class="images--twitter">
+                                <img src={imagesFooter} alt="twitter"/>
                             </a>
-                            <a href="https://www.instagram.com/pontofrio/" className="images--instagram">
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                            <a href="https://www.instagram.com/pontofrio/" class="images--instagram">
+                                <img src={imagesFooter} alt="instagram"/>
                             </a>
-                            <a className="images--googlePlus">
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                            <a href="https://www.instagram.com/pontofrio/" class="images--googlePlus">
+                                <img src={imagesFooter} alt="googlePlus"/>
                             </a>
-                            <a href="http://www.youtube.com/pontofriocom" className="images--youtube">
-                                <img src="../../assets/footer.66d3ceb5.png"/>
+                            <a href="http://www.youtube.com/pontofriocom" class="images--youtube">
+                                <img src={imagesFooter} alt="youtube"/>
                             </a>
-                            <a href="http://pinterest.com/amordepinguim" className="images--pinterest">
-                                <img src="../../assets/footer.66d3ceb5.png"/> 
+                            <a href="http://pinterest.com/amordepinguim" class="images--pinterest">
+                            <img src={imagesFooter} alt="pinterest"/>
                             </a>
-                            <a href="https://eglu.pontofrio.com.br/" className="images--wordpress">
-                                <img src="../../assets/footer.66d3ceb5.png"/> 
+                            <a href="https://eglu.pontofrio.com.br/" class="images--wordpress">
+                            <img src={imagesFooter} alt="wordpress"/>
                             </a>
                         </div>
                     </div>
