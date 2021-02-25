@@ -8,11 +8,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 - [ ] [a documentação do reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
 - [ ] [a documentação do redux.js.org](https://redux.js.org/introduction/getting-started)
-- [ ] [a documentação do redux-saga](https://redux-saga.js.org/)
-- [x] [Redux Essentials, Parte 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) 
-- [ ] [Redux Essentials, Parte 2: Redux App Structure](https://redux.js.org/tutorials/essentials/part-2-app-structure)
-- [ ] [Redux Essentials, Part 3: Basic Redux Data Flow](https://redux.js.org/tutorials/essentials/part-3-data-flow)
-- [x] [Persistindo o estado da aplicação com Redux e localStorage](https://medium.com/@arojunior/persistindo-o-estado-da-aplica%C3%A7%C3%A3o-com-redux-e-localstorage-8cdffa9d5c6f) 
+- [ ] [a documentação do redux-saga](https://redux-saga.js.org/) 
 
 ### Tutoriais 
 
@@ -34,13 +30,11 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar a action
 - [x] criar o reducer
 - [x] criar o sagas
-- [ ] acessar o state com redux de seu componente
-- [ ] acessar o state com redux de qualquer outro componente
-- [ ] devList e entList: manipular states entre componentes
-- [ ] construindo uma aplicação para testar módulos do nosso painel.
+- [ ] acessar o state com redux de seu componente  
 
 ### Objetivo
 
-- [ ] Implementar Redux no module
+- [ ] Desenvolver uma aplicação piloto
+- [ ] Implementar os itens de conceitos citados
 
 :. Douglas 
