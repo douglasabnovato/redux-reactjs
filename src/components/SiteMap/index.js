@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG, FaYoutube, FaPinterestP, FaWordpressSimple } from "react-icons/fa";
+import React from 'react';  
 
 import './styles.css';
 
@@ -408,20 +407,23 @@ export default function SiteMap() {
                                     <span>Para RJ E Região</span>
                                 </div>
                             </div>
-                            <div className="images--or">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                            <div className="images--or"> 
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </div>
                             <div>
                                 <div className="phone">
                                     <a href="tel:4002-3388">4002-3388</a>
                                 </div>
-                                <div>
-                                    <span>
-                                        Clientes das Lojas Físicas <br/>
-                                        CRC Pontofrio<br/>
-                                        -<br/>
-                                        Central de Relacionamento com Cliente <br/>
-                                        Para falar conosco, <a href="tel:4002-3388">clique aqui</a>.
+                                <div> 
+                                    <span>Clientes das Lojas Físicas
+                                        <b> CRC Pontofrio </b>
+                                        -
+                                        <br/>
+                                        Central de Relacionamento com Cliente
+                                        <br/>
+                                        Para falar conosco, 
+                                        <a> clique aqui</a>
+                                        .
                                     </span>
                                 </div>
                             </div>
@@ -436,25 +438,25 @@ export default function SiteMap() {
                         </div>
                         <div className="social--images">
                             <a href="https://www.facebook.com/pontofrio" className="images--facebook">
-                                <FaFacebookF />
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </a>
                             <a href="https://twitter.com/pontofrio" className="images--twitter">
-                                <FaTwitter />
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </a>
                             <a href="https://www.instagram.com/pontofrio/" className="images--instagram">
-                                <FaInstagram />
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </a>
                             <a className="images--googlePlus">
-                                <FaGooglePlusG />
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </a>
                             <a href="http://www.youtube.com/pontofriocom" className="images--youtube">
-                                <FaYoutube />
+                                <img src="../../assets/footer.66d3ceb5.png"/>
                             </a>
                             <a href="http://pinterest.com/amordepinguim" className="images--pinterest">
-                                <FaPinterestP />
+                                <img src="../../assets/footer.66d3ceb5.png"/> 
                             </a>
                             <a href="https://eglu.pontofrio.com.br/" className="images--wordpress">
-                                <FaWordpressSimple />
+                                <img src="../../assets/footer.66d3ceb5.png"/> 
                             </a>
                         </div>
                     </div>

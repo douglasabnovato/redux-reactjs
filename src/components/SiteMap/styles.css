@@ -81,7 +81,7 @@ ul {
     height: inherit;
     width: inherit;
 }
-
+/*
 path[Attributes Style] {
     fill: currentcolor;
     d: path("M 9.29 15.88 l 3.88 -3.88 l -3.88 -3.88 c -0.39 -0.39 -0.39 -1.02 0 -1.41 s 1.02 -0.39 1.41 0 l 4.59 4.59 c 0.39 0.39 0.39 1.02 0 1.41 l -4.59 4.59 c -0.39 0.39 -1.02 0.39 -1.41 0 c -0.38 -0.39 -0.39 -1.03 0 -1.42 Z");
@@ -89,7 +89,7 @@ path[Attributes Style] {
 
 :not(svg) {
     transform-origin: 0px 0px;
-}
+}*/
 
 .footer-default-sitemap ul > li > a {
     vertical-align: middle;
@@ -164,4 +164,18 @@ path[Attributes Style] {
     font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
     margin-top: 10px;
     font-weight: bold;
+}
+
+.footer-default  * a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-default .images--or > img {
+    object-fit: none;
+    object-position: 0 -520px;
+    width: 14px;
+    height: 70px;
+    margin: 0 auto;
 }
