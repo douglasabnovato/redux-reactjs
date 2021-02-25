@@ -1,0 +1,31 @@
+.pontofrioFooterContact {
+    background-color: #e2e2e2;
+    font-size: 11px;
+    color: #404040;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.pontofrioFooterContact--content {
+    margin: auto;
+    width: 100%;
+    max-width: 990px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pontofrioFooterContact--content > div:first-of-type {
+    margin-bottom: 15px;
+}
+
+b {
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+.pontofrioFooterContact a {
+    text-decoration: none;
+    color: #404040;
+}

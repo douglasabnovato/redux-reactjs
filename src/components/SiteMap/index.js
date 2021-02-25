@@ -453,21 +453,15 @@ export default function SiteMap() {
                             <a href="http://www.youtube.com/pontofriocom" class="images--youtube">
                                 <img src={imagesFooter} alt="youtube"/>
                             </a>
-                            <a href="http://pinterest.com/amordepinguim" class="images--pinterest">
-                            <img src={imagesFooter} alt="pinterest"/>
-                            </a>
                             <a href="https://eglu.pontofrio.com.br/" class="images--wordpress">
-                            <img src={imagesFooter} alt="wordpress"/>
+                                <img src={imagesFooter} alt="wordpress"/>
+                            </a>
+                            <a href="http://pinterest.com/amordepinguim" class="images--pinterest">
+                                <img src={imagesFooter} alt="pinterest"/>
                             </a>
                         </div>
                     </div>
-                </div>
-                <div className='footer-default-row'>{/*row-3*/}
-
-                </div>
-                <div className='footer-default-row'>{/*row-4*/}
-
-                </div>
+                </div>  
             </div>
         </div>
     );
