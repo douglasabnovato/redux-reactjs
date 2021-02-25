@@ -10,11 +10,11 @@ export default function SiteMap() {
             <div className='footer-default-content'>{/*content*/}
                 <div className='footer-default-row'>{/*row-1*/}
                     <div>{/*dúvidas*/}
-                        <div class="title">Dúvidas</div>
-                        <div class="footer-default--itens">{/*dúvidas-itens-1*/}
+                        <div className="title">Dúvidas</div>
+                        <div className="footer-default--itens">{/*dúvidas-itens-1*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -24,7 +24,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -35,7 +35,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -46,7 +46,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -57,7 +57,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -69,10 +69,10 @@ export default function SiteMap() {
                                 </li>
                             </ul>
                         </div> 
-                        <div class="footer-default--itens">{/*dúvidas-itens-2*/}
+                        <div className="footer-default--itens">{/*dúvidas-itens-2*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -82,7 +82,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -93,7 +93,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -104,7 +104,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -115,7 +115,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -129,11 +129,11 @@ export default function SiteMap() {
                         </div>
                     </div>{/*end-dúvidas*/} 
                     <div>{/*serviços*/}
-                        <div class="title">Serviços</div>
-                        <div class="footer-default--itens">{/*serviços-itens-1*/}
+                        <div className="title">Serviços</div>
+                        <div className="footer-default--itens">{/*serviços-itens-1*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -143,7 +143,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -154,7 +154,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -165,7 +165,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -176,7 +176,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -188,10 +188,10 @@ export default function SiteMap() {
                                 </li>
                             </ul>
                         </div> 
-                        <div class="footer-default--itens">{/*serviços-itens-2*/}
+                        <div className="footer-default--itens">{/*serviços-itens-2*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -201,7 +201,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -212,7 +212,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -223,7 +223,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -234,7 +234,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -248,11 +248,11 @@ export default function SiteMap() {
                         </div>
                     </div>{/*end-serviços*/} 
                     <div>{/*institucional*/}
-                        <div class="title">Institucional</div>
-                        <div class="footer-default--itens">{/*institucional-itens-1*/}
+                        <div className="title">Institucional</div>
+                        <div className="footer-default--itens">{/*institucional-itens-1*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -262,7 +262,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -273,7 +273,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -284,7 +284,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -295,7 +295,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -307,10 +307,10 @@ export default function SiteMap() {
                                 </li>
                             </ul>
                         </div> 
-                        <div class="footer-default--itens">{/*institucional-itens-2*/}
+                        <div className="footer-default--itens">{/*institucional-itens-2*/}
                             <ul>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z"></path>
                                         </svg>
@@ -320,7 +320,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -331,7 +331,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -342,7 +342,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -353,7 +353,7 @@ export default function SiteMap() {
                                     </a>
                                 </li>
                                 <li>
-                                    <div class="icon">
+                                    <div className="icon">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path fill="currentColor" d="M9.29 15.88l3.88-3.88-3.88-3.88c-0.39-0.39-0.39-1.020 0-1.41s1.020-0.39 1.41 0l4.59 4.59c0.39 0.39 0.39 1.020 0 1.41l-4.59 4.59c-0.39 0.39-1.020 0.39-1.41 0-0.38-0.39-0.39-1.030 0-1.42z">
                                             </path>
@@ -389,30 +389,30 @@ export default function SiteMap() {
                             </span>
                         </div>
                     </div>{/*end-televendas*/}
-                    <div class="footer-default--attendance">{/*atendimento*/}
-                        <div class="title">
+                    <div className="footer-default--attendance">{/*atendimento*/}
+                        <div className="title">
                             Atendimento
                         </div>
-                        <div class="attendance">
+                        <div className="attendance">
                             <div>
-                                <div class="phone">
+                                <div className="phone">
                                     <a href="tel:4003-8388">4003-8388</a>
                                 </div>
                                 <div>
                                     <span>Para clientes de Internet e Televendas</span>
                                 </div>
-                                <div class="phone">
+                                <div className="phone">
                                     <a href="tel:0800-200-8388">0800-200-8388</a>
                                 </div>
                                 <div>
                                     <span>Para RJ E Região</span>
                                 </div>
                             </div>
-                            <div class="images--or">
+                            <div className="images--or">
                                 <img src="/_next/static/footer.66d3ceb5.png"/>
                             </div>
                             <div>
-                                <div class="phone">
+                                <div className="phone">
                                     <a href="tel:4002-3388">4002-3388</a>
                                 </div>
                                 <div>
@@ -427,33 +427,33 @@ export default function SiteMap() {
                             </div>
                         </div>
                     </div>{/*end-atendimento*/}
-                    <div class="footer-default--social">{/*Redes Sociais*/}
-                        <div class="title">
+                    <div className="footer-default--social">{/*Redes Sociais*/}
+                        <div className="title">
                             Redes Sociais
                         </div>
                         <div>
                             Acompanhe todas as ofertas e novidades do site do Pinguim.
                         </div>
-                        <div class="social--images">
-                            <a href="https://www.facebook.com/pontofrio" class="images--facebook">
+                        <div className="social--images">
+                            <a href="https://www.facebook.com/pontofrio" className="images--facebook">
                                 <FaFacebookF />
                             </a>
-                            <a href="https://twitter.com/pontofrio" class="images--twitter">
+                            <a href="https://twitter.com/pontofrio" className="images--twitter">
                                 <FaTwitter />
                             </a>
-                            <a href="https://www.instagram.com/pontofrio/" class="images--instagram">
+                            <a href="https://www.instagram.com/pontofrio/" className="images--instagram">
                                 <FaInstagram />
                             </a>
-                            <a class="images--googlePlus">
+                            <a className="images--googlePlus">
                                 <FaGooglePlusG />
                             </a>
-                            <a href="http://www.youtube.com/pontofriocom" class="images--youtube">
+                            <a href="http://www.youtube.com/pontofriocom" className="images--youtube">
                                 <FaYoutube />
                             </a>
-                            <a href="http://pinterest.com/amordepinguim" class="images--pinterest">
+                            <a href="http://pinterest.com/amordepinguim" className="images--pinterest">
                                 <FaPinterestP />
                             </a>
-                            <a href="https://eglu.pontofrio.com.br/" class="images--wordpress">
+                            <a href="https://eglu.pontofrio.com.br/" className="images--wordpress">
                                 <FaWordpressSimple />
                             </a>
                         </div>
