@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG, FaYoutube, FaPinterestP, FaWordpressSimple } from "react-icons/fa";
 
 import './styles.css';
 
@@ -128,7 +129,7 @@ export default function SiteMap() {
                         </div>
                     </div>{/*end-dúvidas*/} 
                     <div>{/*serviços*/}
-                        <div class="title">Dúvidas</div>
+                        <div class="title">Serviços</div>
                         <div class="footer-default--itens">{/*serviços-itens-1*/}
                             <ul>
                                 <li>
@@ -247,7 +248,7 @@ export default function SiteMap() {
                         </div>
                     </div>{/*end-serviços*/} 
                     <div>{/*institucional*/}
-                        <div class="title">Dúvidas</div>
+                        <div class="title">Institucional</div>
                         <div class="footer-default--itens">{/*institucional-itens-1*/}
                             <ul>
                                 <li>
@@ -426,7 +427,7 @@ export default function SiteMap() {
                             </div>
                         </div>
                     </div>{/*end-atendimento*/}
-                    <div class="pontofrioFooterDefault--social">{/*Redes Sociais*/}
+                    <div class="footer-default--social">{/*Redes Sociais*/}
                         <div class="title">
                             Redes Sociais
                         </div>
@@ -435,25 +436,25 @@ export default function SiteMap() {
                         </div>
                         <div class="social--images">
                             <a href="https://www.facebook.com/pontofrio" class="images--facebook">
-                                <img src=""/>
+                                <FaFacebookF />
                             </a>
                             <a href="https://twitter.com/pontofrio" class="images--twitter">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaTwitter />
                             </a>
                             <a href="https://www.instagram.com/pontofrio/" class="images--instagram">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaInstagram />
                             </a>
                             <a class="images--googlePlus">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaGooglePlusG />
                             </a>
                             <a href="http://www.youtube.com/pontofriocom" class="images--youtube">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaYoutube />
                             </a>
                             <a href="http://pinterest.com/amordepinguim" class="images--pinterest">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaPinterestP />
                             </a>
                             <a href="https://eglu.pontofrio.com.br/" class="images--wordpress">
-                                <img src="/_next/static/footer.66d3ceb5.png"/>
+                                <FaWordpressSimple />
                             </a>
                         </div>
                     </div>

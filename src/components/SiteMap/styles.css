@@ -100,3 +100,68 @@ path[Attributes Style] {
     text-decoration: none;
     color: #000000;
 }
+
+.footer-default-row {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.footer-default-row:nth-child(2) > div:nth-child(1), 
+.footer-default-row:nth-child(2) > div:nth-child(3) {
+    flex: 1 1 25%;
+}
+
+.footer-default-row:nth-child(2) > div {
+    flex: 1 1 50%;
+}
+
+.footer-default-row > div {
+    padding: 10px 15px 20px 15px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.footer-default-row .title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer-default-row .phone > a {
+    color: #ba0216;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer-default--attendance .attendance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-default-sitemap .phone > a {
+    color: #ba0216;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer-default-sitemap * a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-default--attendance .attendance > div:first-of-type > .phone:nth-of-type(3) {
+    margin-top: 10px;
+}
+
+.footer-default-sitemap .phone > a {
+    color: #ba0216;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+}
