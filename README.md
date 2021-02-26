@@ -34,7 +34,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar a action
 - [x] criar o reducer
 - [x] criar o sagas
-- [ ] acessar o state do componente com redux  
+- [ ] login e sessão 
+- [ ] tabela  
 
 ### Objetivo
 
