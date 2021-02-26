@@ -35,7 +35,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar o reducer
 - [x] criar o sagas
 - [x] layout
-- [ ] login e sessão 
+- [ ] login e sessão, validar o token 
 - [ ] tabela  
 
 ### Objetivo
