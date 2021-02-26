@@ -7,7 +7,7 @@ import './Button.css';
 const cbn = 'ui-button';
 
 const UIButton = ({ onClick, to, theme, rounded, children, className, ...restProps }) => {
-  const Component = to ? Link : 'button';
+  const Component = to ? Link : 'button'; 
 
   return (
     <Component

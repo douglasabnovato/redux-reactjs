@@ -11,6 +11,7 @@ import DevList from './components/DevList';
 import GitHooks from './components/GitHooks'; 
 import Comment from './components/Comment';
 import Location from './components/Location';
+import Login from './components/User/Login/Login';
 import ChatBox from './components/ChatBox';
 import Footer from './components/Footer';
 
@@ -25,6 +26,7 @@ export default class App extends Component {
 				<GitHooks />
 				<Comment />
 				<Location />
+				<Login />
 				<ChatBox />
 				<Footer />
 			</Provider> 
