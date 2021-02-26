@@ -20,13 +20,13 @@ export default class App extends Component {
 		return ( 
 			<Provider store={store}> 
 				<Header />
+				<Login />
 				<PersistGate loading={null} persistor={persistor}>
 					<DevList />	
 				</PersistGate> 
 				<GitHooks />
 				<Comment />
-				<Location />
-				<Login />
+				<Location /> 
 				<ChatBox />
 				<Footer />
 			</Provider> 
