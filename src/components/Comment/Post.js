@@ -32,8 +32,8 @@ export default class Post extends React.Component{
 
     render(){
         return(
-            <div>
-                <h3>{this.props.title}</h3>
+            <div className="titulo-comentario">
+                <h4>{this.props.title}</h4>
                 <form onSubmit={this.handleSubmit} >
                     <input 
                         value={this.state.newCommentText}

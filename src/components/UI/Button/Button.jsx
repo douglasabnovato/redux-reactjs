@@ -1,8 +1,7 @@
 import React from 'react';
 import { oneOf, bool } from 'prop-types';
 import { Link } from 'react-router-dom';
-import cx from 'classnames';
-import './styles.css';
+import cx from 'classnames'; 
 
 const cbn = 'ui-button';
 
