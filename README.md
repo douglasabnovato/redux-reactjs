@@ -35,7 +35,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] criar o reducer
 - [x] criar o sagas
 - [x] layout
-- [ ] login
+- [x] login
+- [ ] deslogar
 - [ ] validar o token 
 - [ ] tabela  
 
