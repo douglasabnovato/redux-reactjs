@@ -12,7 +12,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Tutoriais 
 
-- [ ] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
+- [x] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
 - [ ] [implementar um LOGIN em React.JS Com React Router e Context API](https://www.youtube.com/watch?v=FVxdFxxkdDI) 
 - [ ] [Autenticação no ReactJS com Context API & Hooks](https://www.youtube.com/watch?v=KISMYYXSIX8&t=45s) 
 - [ ] [Estrutura de pastas para ReactJS](https://www.youtube.com/watch?v=X2RKRKdqqwM)
