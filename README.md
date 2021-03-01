@@ -35,9 +35,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] persistência de dados em localstorage
 - [x] design ux
 - [x] login: rota pública, rota privada
-- [ ] autenticação 
-- [x] deslogar
-- [ ] validar o token 
+- [ ] autenticação: validar o token 
+- [x] deslogar 
 - [ ] tabela  
 
 ### Objetivo
