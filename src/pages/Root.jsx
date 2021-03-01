@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import StoreProvider from '../store/Provider'; 
-import RoutesPrivate from '../Routes/Private/Private';
+import RoutesPrivate from '../Routes/Private/Private'; 
 
 import Home from './Home/Home';
 import Login from './Login/Login';
@@ -18,17 +18,17 @@ import ShoutOut from './ShoutOut'
 
 const PagesRoot = () => (
   <Router>
-    <StoreProvider>
+    <StoreProvider>  
       <Switch>
-        <Route path="/login" component={Login} />
-        <RoutesPrivate path="/home" component={Home} />
-        <RoutesPrivate path="/home/devlist" component={DevList} />
-        <RoutesPrivate path="/home/reposlist" component={ReposList} />
-        <RoutesPrivate path="/home/usersDetails" component={UsersDetails} />
-        <RoutesPrivate path="/home/gps" component={Gps} />
-        <RoutesPrivate path="/home/shoutOut" component={ShoutOut} />
-        <RoutesPrivate path="/home/talkToMe" component={Gps} />
-      </Switch>
+        <Route exact  path="/login" component={Login} />
+        <RoutesPrivate exact  path="/home" component={Home} />
+        <RoutesPrivate exact  path="/home/devlist" component={DevList} />
+        <RoutesPrivate exact  path="/home/reposlist" component={ReposList} />
+        <RoutesPrivate exact  path="/home/usersDetails" component={UsersDetails} />
+        <RoutesPrivate exact  path="/home/gps" component={Gps} />
+        <RoutesPrivate exact  path="/home/shoutOut" component={ShoutOut} />
+        <RoutesPrivate exact  path="/home/talkToMe" component={Gps} />
+      </Switch> 
     </StoreProvider>
   </Router>
 )
