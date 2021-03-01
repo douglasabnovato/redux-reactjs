@@ -28,6 +28,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [x] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
 - [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs) 
+- [ ] typescript - rocketseat
 
 ### Tarefas 
 
@@ -40,10 +41,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] deslogar 
 - [ ] autenticação: validar o token 
 - [ ] tabela   
-- [ ] breadcrumbs
-
-typescript - rocketseat
-
+- [ ] breadcrumbs 
 
 ### Objetivo
 
