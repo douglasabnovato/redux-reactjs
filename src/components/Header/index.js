@@ -15,14 +15,18 @@ export default function Header(){
             </div>
             <div className="header-links">
                 <div>
-                    <a href="https://www.nvoip.com.br/">API</a>
-                    <a href="https://www.nvoip.com.br/">Número Nacional</a>
-                    <a href="https://www.nvoip.com.br/">Número Virtual</a>
+                    <a href="#home">Home</a>
+                    <a href="#developers">Devs</a>
+                    <a href="#repositories">Repos</a>
+                    <a href="#tables">Users</a>
+                    <a href="#shout-out">Shout Out</a>
+                    <a href="#gps">GPS</a>
+                    <a href="#talk-to-me">Talk To Me</a>
                 </div>
             </div>
             <div>
                 <button type="button" onClick={() => setToken(null)}>
-					Sair
+					Get Out
 				</button>
             </div>
         </div>

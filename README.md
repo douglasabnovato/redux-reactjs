@@ -40,9 +40,9 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] requisição a api
 - [x] login: rota pública - login, rota privada - home
 - [x] deslogar 
-- [ ] autenticação: validar o token 
-- [ ] tabela   
-- [ ] breadcrumbs 
+- [x] autenticação: validar o token 
+- [ ] breadcrumbs - menu
+- [ ] tabela    
 
 ### Objetivo
 
