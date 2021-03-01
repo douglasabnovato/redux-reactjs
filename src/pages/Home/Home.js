@@ -1,4 +1,5 @@
 import React, { Component } from 'react'; 
+
 import '../../global.css';
 
 import { Provider } from 'react-redux';  
@@ -16,9 +17,10 @@ import Footer from '../../components/Footer';
 
 export default class PagesHome extends Component { 
 	render(){
+		
 		return ( 
 			<Provider store={store}> 
-				<Header /> 
+				<Header />  
 				<PersistGate loading={null} persistor={persistor}>
 					<DevList />	
 				</PersistGate> 
