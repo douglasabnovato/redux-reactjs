@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import StoreContext from '../../../store/Context';
 import UIButton from '../../UI/Button/Button'; 
+import LogoNvoip from '../../../assets/logo-nvoip-220x51-trans.png';
 
 import './styles.css';
 
@@ -47,6 +48,15 @@ const UserLogin = () => {
   }
  
   return (
+    <div>
+    <section className="header-home">  
+        <div>
+            <div className="header-logo">  
+                <a href="https://www.nvoip.com.br/"><img src={LogoNvoip}/></a> 
+            </div>
+            
+        </div>
+    </section> 
     <section>
         <div>
             <div class="text-title">
@@ -84,7 +94,8 @@ const UserLogin = () => {
                 </UIButton> 
             </form>
         </div>
-    </section>
+    </section>  
+    </div>
   );
 };
 

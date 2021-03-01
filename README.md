@@ -15,6 +15,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
 - [x] [implementar um LOGIN em React.JS Com React Router e Context API](https://www.youtube.com/watch?v=FVxdFxxkdDI) 
 - [ ] [Autenticação no ReactJS com Context API & Hooks](https://www.youtube.com/watch?v=KISMYYXSIX8&t=45s) 
+- [ ] [Controlando autenticação em rotas no ReactJS](https://www.youtube.com/watch?v=sYe4r8WXGQg)
+- [ ] [Autenticação JWT com Context API e React Router](https://www.youtube.com/watch?v=AClyxTbfI08)
 - [ ] [Estrutura de pastas para ReactJS](https://www.youtube.com/watch?v=X2RKRKdqqwM)
 - [x] [React JS - MELHOR GUIA para Iniciantes!](https://www.youtube.com/watch?v=Ws9WVHhNq5M)  
 - [x] [CodeQuinta #1 - Arquitetura Flux com Redux do zero](https://www.youtube.com/watch?v=69e1MoUWE1g) 
@@ -29,15 +31,19 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Tarefas 
 
-- [x] componentização: props e state 
+- [x] componentização props e state 
 - [x] gerenciamento de state com redux: store action reducer 
 - [x] states assíncronos com redux-sagas
 - [x] persistência de dados em localstorage
 - [x] design ux
 - [x] login: rota pública, rota privada
-- [ ] autenticação: validar o token 
 - [x] deslogar 
-- [ ] tabela  
+- [ ] autenticação: validar o token 
+- [ ] tabela   
+- [ ] breadcrumbs
+
+typescript - rocketseat
+
 
 ### Objetivo
 
