@@ -37,6 +37,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] states assíncronos com redux-sagas
 - [x] persistência de dados em localstorage
 - [x] design ux
+- [x] requisição a api
 - [x] login: rota pública - login, rota privada - home
 - [x] deslogar 
 - [ ] autenticação: validar o token 
