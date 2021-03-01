@@ -7,16 +7,21 @@ export default function GitHooks(){
   
   const [repositories, setRepositories] = useState([]); 
   
-  useEffect(async () => {  
-    const response = await fetch("http://api.github.com/users/douglasabnovato/repos");
-    const data = await response.json();
-
-    setRepositories(data);
+  useEffect(() => {
+    async function chamaAPIGithub(){
+      const response = await fetch("http://api.github.com/users/douglasabnovato/repos");
+      const data = await response.json();
+      setRepositories(data);
+    }  
+    chamaAPIGithub();
   }, []); 
 
-  useEffect(async () => {
-    const filtered = repositories.filter(repo => repo.favorite);
-    document.title = `Você tem ${filtered.length} favoritos.`
+  useEffect(() => {
+    async function editTitlePage(){
+      const filtered = repositories.filter(repo => repo.favorite);
+      document.title = `Você tem ${filtered.length} favoritos.`
+    }  
+    editTitlePage();
   }, [repositories]);
 
   function handleFavorite(id){
