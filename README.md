@@ -14,7 +14,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 - [x] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
 - [x] [implementar um LOGIN em React.JS Com React Router e Context API](https://www.youtube.com/watch?v=FVxdFxxkdDI) 
-- [ ] [Autenticação no ReactJS com Context API & Hooks](https://www.youtube.com/watch?v=KISMYYXSIX8&t=45s) 
+- [x] [Autenticação no ReactJS com Context API & Hooks](https://www.youtube.com/watch?v=KISMYYXSIX8&t=45s) 
 - [ ] [Controlando autenticação em rotas no ReactJS](https://www.youtube.com/watch?v=sYe4r8WXGQg)
 - [ ] [Autenticação JWT com Context API e React Router](https://www.youtube.com/watch?v=AClyxTbfI08)
 - [ ] [Estrutura de pastas para ReactJS](https://www.youtube.com/watch?v=X2RKRKdqqwM)
@@ -25,6 +25,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Organizando o Redux com Duck Pattern e Redux Sauce](https://www.youtube.com/watch?v=q-If9n-tUyA) 
 - [x] [Persistindo store do Redux no ReactJS com Redux Persist](https://www.youtube.com/watch?v=LGkNjt7k4UQ)
 - [x] [TypeScript com ReactJS, Redux e Redux Saga](https://www.youtube.com/watch?v=OXxul6AvXNs)
+- [ ] [React Hooks com TypeScript](https://www.youtube.com/watch?v=GOB-lawExXc)
 - [x] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [x] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
 - [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs) 
@@ -36,7 +37,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] states assíncronos com redux-sagas
 - [x] persistência de dados em localstorage
 - [x] design ux
-- [x] login: rota pública, rota privada
+- [x] login: rota pública - login, rota privada - home
 - [x] deslogar 
 - [ ] autenticação: validar o token 
 - [ ] tabela   
