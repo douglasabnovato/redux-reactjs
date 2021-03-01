@@ -32,6 +32,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] componentização: props e state 
 - [x] gerenciamento de state com redux: store action reducer 
 - [x] states assíncronos com redux-sagas
+- [x] persistência de dados em localstorage
 - [x] design ux
 - [x] autenticação de login
 - [ ] deslogar
