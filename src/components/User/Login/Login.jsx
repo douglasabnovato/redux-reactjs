@@ -42,7 +42,7 @@ const UserLogin = () => {
     const {token} = login(values);
     if(token){
          setToken(token);
-         return history.push('/');
+         return history.push('/home');
     }
     setValues(initialState);
   }
