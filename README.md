@@ -29,13 +29,11 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Tarefas 
 
-- [x] props e state 
-- [x] criar o store
-- [x] criar a action
-- [x] criar o reducer
-- [x] criar o sagas
-- [x] layout
-- [x] login
+- [x] componentização: props e state 
+- [x] gerenciamento de state com redux: store action reducer 
+- [x] states assíncronos com redux-sagas
+- [x] design ux
+- [x] autenticação de login
 - [ ] deslogar
 - [ ] validar o token 
 - [ ] tabela  
