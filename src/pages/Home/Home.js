@@ -1,17 +1,8 @@
 import React, { Component } from 'react'; 
-
 import '../../global.css';
-
 import { Provider } from 'react-redux';  
-import { PersistGate } from 'redux-persist/integration/react';  
-
-import {store, persistor} from '../../store/index'; 
-
-import Header from '../../components/Header';
-import DevList from '../../components/DevList';  
-import GitHooks from '../../components/GitHooks'; 
-import Comment from '../../components/Comment';
-import Location from '../../components/Location';
+import { store } from '../../store/index'; 
+import Header from '../../components/Header'; 
 import ChatBox from '../../components/ChatBox';
 import Footer from '../../components/Footer';
 
@@ -20,13 +11,10 @@ export default class PagesHome extends Component {
 		
 		return ( 
 			<Provider store={store}> 
-				<Header />  
-				<PersistGate loading={null} persistor={persistor}>
-					<DevList />	
-				</PersistGate> 
-				<GitHooks />
-				<Comment />
-				<Location /> 
+				<Header /> 
+				<section>
+					Welcome to Nvoip !!
+				</section> 
 				<ChatBox />
 				<Footer />
 			</Provider> 
