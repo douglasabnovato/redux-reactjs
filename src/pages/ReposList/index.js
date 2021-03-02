@@ -13,7 +13,7 @@ export default class DevList extends Component {
 		return ( 
 			<Provider store={store}> 
 				<Header />
-        <RepostListCom />
+        		<RepostListCom />
 				<ChatBox />
 				<Footer />
 			</Provider> 
