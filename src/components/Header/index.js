@@ -1,9 +1,8 @@
 import React, { useContext } from 'react'; 
 import LogoNvoip from '../../assets/logo-nvoip-220x51-trans.png';
 
-import StoreContext from '../../store/Context';
-
-import './styles.css';
+import StoreContext from '../../store/Context'; 
+import './styles.css'; 
 
 export default function Header(){ 
   const { setToken } = useContext(StoreContext);
@@ -14,22 +13,33 @@ export default function Header(){
                 <a href="https://www.nvoip.com.br/"><img src={LogoNvoip}/></a> 
             </div>
             <div className="header-links">
-                <div>
-                    <a href="#home">Home</a>
-                    <a href="#developers">Devs</a>
-                    <a href="#repositories">Repos</a>
-                    <a href="#tables">Users</a>
-                    <a href="#shout-out">Shout Out</a>
-                    <a href="#gps">GPS</a>
-                    <a href="#talk-to-me">Talk To Me</a>
+                <div>  
+                    <ul>
+                        <li><a href="#home">Home</a></li> 
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Developers</a>
+                            <div class="dropdown-content">
+                                <a href="#devs">Devs</a>
+                                <a href="#repos">Repos</a> 
+                            </div>
+                        </li> 
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Users</a>
+                            <div class="dropdown-content">
+                                <a href="#tables">Users</a>
+                                <a href="#shout-out">Shout Out</a> 
+                                <a href="#gps">GPS</a> 
+                            </div>
+                        </li>     
+                    </ul>
                 </div>
             </div>
-            <div>
+            <div className="btnGetOut">
                 <button type="button" onClick={() => setToken(null)}>
-					Get Out
-				</button>
+                    Get Out
+                </button>
             </div>
         </div>
-    </section>  
+    </section>    
   );
 }

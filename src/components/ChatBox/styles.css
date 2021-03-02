@@ -37,16 +37,15 @@
     display: block;
 }
 
-.button-container { 
-    color: white;
+.button-container {  
+    color: #ffffff;
     background-color: transparent;
     border: 1px solid white;
     padding: 10px 70px;
     height: fit-content;
     transition: all 0.4s;
     vertical-align: middle;
-    text-align: center;
-    color: #ffffff;
+    text-align: center; 
     box-sizing: border-box; 
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
