@@ -41,8 +41,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] login: rota pública - login, rota privada - home
 - [x] deslogar 
 - [x] autenticação: validar o token 
-- [ ] breadcrumbs - menu
-- [ ] tabela    
+- [ ] breadcrumbs - menu - rotas
+- [ ] tabela - [MUI-Datatables - Datatables for Material-UI](https://www.npmjs.com/package/mui-datatables)    
 
 ### Objetivo
 
