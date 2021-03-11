@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import Testing from '../Testing/index';
+
 export default function Location(){
     const [location, setLocation] = useState({});
 
@@ -22,6 +24,7 @@ export default function Location(){
                 <li>Latitude: {location.latitude}</li>
                 <li>Longitude: {location.longitude}</li> 
             </ul>  
+            <Testing/>
         </section>   
     );
 }

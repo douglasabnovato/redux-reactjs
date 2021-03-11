@@ -40,12 +40,13 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Conceitos 
 
-- [ ] [ ]( )
+- [x] [Padrões em React: Provider Pattern](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
 - [ ] [ ]( ) 
 
 ### Documentação
 
 - [reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
+- [hooks](https://reactjs.org/docs/hooks-intro.html) 
 - [redux.js.org](https://redux.js.org/introduction/getting-started)
 - [redux-saga](https://redux-saga.js.org/) 
 
