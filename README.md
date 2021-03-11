@@ -4,11 +4,11 @@ O objetivo é implementar o redux nos módulos que necessitam de gerenciamento d
 
 Compartilhar os states entre os componentes criados de forma mais organizada e com mais clareza do fluxo na aplicação e sua regra de negócio. 
 
-### Conceitos
+### Documentação
 
-- [ ] [a documentação do reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
-- [ ] [a documentação do redux.js.org](https://redux.js.org/introduction/getting-started)
-- [ ] [a documentação do redux-saga](https://redux-saga.js.org/) 
+- [reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
+- [redux.js.org](https://redux.js.org/introduction/getting-started)
+- [redux-saga](https://redux-saga.js.org/) 
 
 ### Tutoriais 
 
@@ -42,7 +42,12 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] deslogar 
 - [x] autenticação: validar o token 
 - [ ] breadcrumbs - menu - rotas
-- [x] tabela (estática) - [MUI-Datatables - Datatables for Material-UI](https://www.npmjs.com/package/mui-datatables)    
+- [x] tabela (estática) - [MUI-Datatables - Datatables for Material-UI](https://www.npmjs.com/package/mui-datatables)  
+
+### Conceitos 
+
+- [ ] [ ]( )
+- [ ] [ ]( ) 
 
 ### Objetivo
 
