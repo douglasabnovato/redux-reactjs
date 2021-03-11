@@ -13,7 +13,7 @@ export default class Gps extends Component {
 		return ( 
 			<Provider store={store}> 
 				<Header />  
-				<GPS /> 
+				<GPS /> {/*rota : home/gps*/}
 				<ChatBox />
 				<Footer />
 			</Provider> 

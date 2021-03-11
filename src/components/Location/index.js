@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'; 
 
-import Testing from '../Testing/index';
+import Testing, { ThemeProvider } from '../Testing/index';
+
+const coloredTheme = "white";
 
 export default function Location(){
     const [location, setLocation] = useState({});
@@ -15,16 +17,23 @@ export default function Location(){
     }
 
     return (
-        <section>
-            <div class="text-title">
-                <h4>Localização</h4>
-                <p>Aonde estou ?</p>
-            </div>  
-            <ul> 
-                <li>Latitude: {location.latitude}</li>
-                <li>Longitude: {location.longitude}</li> 
-            </ul>  
-            <Testing/>
-        </section>   
+        <div> 
+            <section>
+                <div class="text-title">
+                    <h4>Localização</h4>
+                    <p>Aonde estou ?</p>
+                </div>  
+                <ul> 
+                    <li>Latitude: {location.latitude}</li>
+                    <li>Longitude: {location.longitude}</li> 
+                </ul>   
+                
+            </section>   
+            <section>
+                <ThemeProvider coloredTheme={coloredTheme}>
+                    <Testing />
+                </ThemeProvider> 
+            </section> 
+        </div> 
     );
 }

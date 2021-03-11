@@ -1,4 +1,4 @@
-## Redux + Reactjs
+## Reactjs + Redux  
 
 O objetivo é implementar o redux nos módulos que necessitam de gerenciamento do fluxo de informações, pois essas informações iniciais são usadas em diversos outros componentes.
 
@@ -40,7 +40,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 
 ### Conceitos 
 
-- [x] [Padrões em React: Provider Pattern](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
+- [x] [Padrões em React: Provider Pattern - High Order Components](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
 - [ ] [ ]( ) 
 
 ### Documentação
@@ -53,6 +53,6 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Objetivo
 
 - [ ] Desenvolver uma aplicação piloto
-- [ ] Implementar os itens de conceitos citados
+- [ ] Implementar melhorias seguindo esses fundamentos em um módulo
 
 :. Douglas 
