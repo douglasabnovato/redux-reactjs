@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 
 class Testing extends React.Component {
   render() {
-    return (
-      <div>
-        <Headline>Hello React</Headline>
+    return ( 
+        <section>
+          <Headline>Olá Nvoiper !</Headline>
 
-        <Paragraph>
-          That's how you would use 
-        </Paragraph>
+          <Paragraph>
+            Nossa aplicação usa 
+          </Paragraph>
 
-        <SubHeadlineWithContext>
-          Children and Context
-        </SubHeadlineWithContext>
-      </div>
+          <SubHeadlineWithContext>
+            Children and Context
+          </SubHeadlineWithContext>      
+        </section> 
     );
   }
 }
@@ -69,9 +69,9 @@ const getContext = contextTypes => Component => {
 
 function SubHeadline(props) {
   return (
-    <h2 style={{ color: props.coloredTheme }}>
+    <h4 style={{ color: props.coloredTheme }}>
       {props.children}
-    </h2>
+    </h4>
   );
 }
 
