@@ -7,6 +7,8 @@ import Header from '../../components/Header';
 import ChatBox from '../../components/ChatBox';
 import Footer from '../../components/Footer';
 
+import List from '../../components/List'
+
 import Testing, { ThemeProvider } from '../../components/Testing/index';
 
 const coloredTheme = "white";
@@ -21,6 +23,7 @@ export default class Gps extends Component {
 				<ThemeProvider coloredTheme={coloredTheme}>
                     <Testing />
                 </ThemeProvider> 
+				<List/>
 				<ChatBox />
 				<Footer />
 			</Provider> 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Testing extends React.Component {
+export default class Testing extends React.Component {
   render() {
     return ( 
         <section>
@@ -102,5 +102,3 @@ ThemeProvider.childContextTypes = {
 export {
   ThemeProvider,
 };
-
-export default Testing;

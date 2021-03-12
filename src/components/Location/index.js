@@ -22,7 +22,6 @@ export default function Location(){
                 <li>Latitude: {location.latitude}</li>
                 <li>Longitude: {location.longitude}</li> 
             </ul>   
-            
         </section> 
     );
 }
