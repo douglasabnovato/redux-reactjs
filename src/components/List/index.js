@@ -23,6 +23,10 @@ export default class List extends React.Component {
         }, 2000);
     }
 
+    componentWillReceiveProps(props) {
+        this.setState({ title: `Aplicação ${props.title}, ciclo de vida de componentes.` });
+    }
+
     render() {
         return (
             <section>
