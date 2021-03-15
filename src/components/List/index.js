@@ -5,9 +5,9 @@ export default class List extends React.Component {
 
     state = {
         posts: [
-            { id: 1, title: "Aprender React.", coments: "Componentização e Props", likes: 14 },
-            { id: 2, title: "Aprender Hooks.", coments: "State.", likes: 19 },
-            { id: 3, title: "Aprender Redux.", coments: "Store.", likes: 25 }
+            { id: 1, title: "Aprender React.", coments: "Componentização.", likes: 14 },
+            { id: 2, title: "Aplicar React.", coments: "Props.", likes: 19 },
+            { id: 3, title: "Dominar React.", coments: "State.", likes: 25 }
         ],
     };
 
