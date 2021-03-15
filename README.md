@@ -41,7 +41,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Conceitos 
 
 - [x] [Padrões em React: Provider Pattern - High Order Components](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
-- [ ] [ ]( ) 
+- [x] [React - Componentização, Propriedades e Estado](https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/) 
 
 ### Documentação
 
