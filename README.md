@@ -22,8 +22,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [React Hooks com TypeScript](https://www.youtube.com/watch?v=GOB-lawExXc)
 - [x] [React Hooks + Redux = 💜](https://www.youtube.com/watch?v=7L7MhxjI4PE)
 - [x] [React Hooks na prática](https://www.youtube.com/watch?v=6WB16wZS61c) 
-- [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs) 
-- [x] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
+- [x] [Você acha Redux DIFÍCIL por causa disso!](https://www.youtube.com/watch?v=1xbFstDfUXs)   
 
 ### Tarefas 
 
@@ -42,8 +41,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Conceitos 
 
 - [x] [Padrões em React: Provider Pattern - High Order Components](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
-- [x] [React - Componentização, Propriedades e Estado](https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/) 
-- [x] [React - Ciclo de vida, stateless components e arquitetura flux](https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/) 
+- [x] [React do zero: Componentização, Propriedades e Estado](https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/) 
+- [x] [React do zero: Ciclo de vida, stateless components e arquitetura flux](https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/) 
 
 ### Documentação
 
