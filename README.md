@@ -7,7 +7,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 ### Tutoriais 
 
 - [x] [Iniciando no ReactJS](https://www.youtube.com/watch?v=7A4UQGrFU9Q) 
-- [x] [implementar um LOGIN em React.JS Com React Router e Context API](https://www.youtube.com/watch?v=FVxdFxxkdDI) 
+- [x] [Implementar um LOGIN em React.JS Com React Router e Context API](https://www.youtube.com/watch?v=FVxdFxxkdDI) 
 - [x] [Autenticação no ReactJS com Context API & Hooks](https://www.youtube.com/watch?v=KISMYYXSIX8&t=45s) 
 - [x] [Controlando autenticação em rotas no ReactJS](https://www.youtube.com/watch?v=sYe4r8WXGQg)
 - [x] [Autenticação JWT com Context API e React Router](https://www.youtube.com/watch?v=AClyxTbfI08)
@@ -50,6 +50,8 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [hooks](https://reactjs.org/docs/hooks-intro.html) 
 - [redux.js.org](https://redux.js.org/introduction/getting-started)
 - [redux-saga](https://redux-saga.js.org/) 
+- Typescript
+- NextJS
 
 ### Objetivo
 
