@@ -43,6 +43,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Padrões em React: Provider Pattern - High Order Components](https://oieduardorabelo.medium.com/padr%C3%B5es-em-react-provider-pattern-b520c37ed733)
 - [x] [React do zero: Componentização, Propriedades e Estado](https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/) 
 - [x] [React do zero: Ciclo de vida, stateless components e arquitetura flux](https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/) 
+- [x] [Redux: O passo a passo](https://blog.rocketseat.com.br/redux-o-passo-a-passo/)
 
 ### Documentação
 
