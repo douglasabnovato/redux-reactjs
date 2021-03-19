@@ -7,9 +7,11 @@ import Header from '../../components/Header';
 import ChatBox from '../../components/ChatBox';
 import Footer from '../../components/Footer';
 
-import List from '../../components/List'
+import List from '../../components/List';
 
 import Testing, { ThemeProvider } from '../../components/Testing/index';
+
+import SemHooks from '../../components/ButtonHooks';
 
 const coloredTheme = "white";
 
@@ -24,6 +26,7 @@ export default class Gps extends Component {
                     <Testing />
                 </ThemeProvider> 
 				<List/>
+				<SemHooks/>
 				<ChatBox />
 				<Footer />
 			</Provider> 

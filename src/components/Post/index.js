@@ -1,10 +1,7 @@
 import React from 'react';
 
 export default class Post extends React.Component {
-
-    componentWillReceiveProps(props) {
-        this.setState({ title: `Aplicação ${props.title}, ciclo de vida de componentes.` });
-    }
+ 
     render(){
         return (  
             <div>         
