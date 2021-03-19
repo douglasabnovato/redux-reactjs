@@ -1,21 +1,19 @@
-class ButtonHooks extends Component{
+import { useState } from 'react';
 
-    state = {
-        modalOpen: false,
-    }
+const ButtonHooks = () => {
+    const [modalOpen, setModalOpen] = useState(false);
 
-    render(){
-        return (
-            <div>
-                <button onClick={() => this.setState({modalOpen: true})}>
-                    Exibir Modal
-                </button>
-                <button onClick={() => this.setState({modalOpen: false})}>
-                    Remover Modal
-                </button>
-                {this.state.modalOpen && <Modal/>}
-            </div>
-        )
-    }
+    return(
+        <div>
+            <button onClick={() => setModalOpen(true)}>
+                Exibir Modal
+            </button>
+            <button onClick={() => setModalOpen(false)}>
+                Remover Modal
+            </button>
+            { modalOpen && <Modal/>}
+        </div>
+    );
 }
+
 export default ButtonHooks;
