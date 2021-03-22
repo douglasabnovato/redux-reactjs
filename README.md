@@ -46,6 +46,9 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Redux: O passo a passo](https://blog.rocketseat.com.br/redux-o-passo-a-passo/)
 - [x] [React Hooks: Como utilizar, motivações e exemplos práticos](https://blog.rocketseat.com.br/react-hooks/)
 - [x] [Server-side rendering (SSR) com ReactJS e Next.js](https://blog.rocketseat.com.br/ssr-nextjs-reactjs/)
+- [x] [Criar Styled Components Com React](https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/)
+- [x] [ant.design](https://ant.design/components/overview/)
+
 
 ### Documentação
 
@@ -53,8 +56,9 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [hooks](https://reactjs.org/docs/hooks-intro.html) 
 - [redux.js.org](https://redux.js.org/introduction/getting-started)
 - [redux-saga](https://redux-saga.js.org/) 
+- [styled-components](https://styled-components.com/)
 - Typescript
-- NextJS
+- [nextjs](https://nextjs.org/)
 
 ### Objetivo
 
