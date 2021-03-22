@@ -45,6 +45,7 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [React do zero: Ciclo de vida, stateless components e arquitetura flux](https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/) 
 - [x] [Redux: O passo a passo](https://blog.rocketseat.com.br/redux-o-passo-a-passo/)
 - [x] [React Hooks: Como utilizar, motivações e exemplos práticos](https://blog.rocketseat.com.br/react-hooks/)
+- [x] [Server-side rendering (SSR) com ReactJS e Next.js](https://blog.rocketseat.com.br/ssr-nextjs-reactjs/)
 
 ### Documentação
 
