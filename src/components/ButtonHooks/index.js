@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import '../../global.css';
 
 const ButtonHooks = () => {
     const [modalOpen, setModalOpen] = useState(false);
 
     return(
-        <div>
+        <section>
             <button onClick={() => setModalOpen(true)}>
                 Exibir Modal
             </button>
@@ -12,8 +13,12 @@ const ButtonHooks = () => {
                 Remover Modal
             </button>
             { modalOpen && <Modal/>}
-        </div>
+        </section>
     );
+}
+
+const Modal = () => {
+    <h3>Modal</h3>
 }
 
 export default ButtonHooks;

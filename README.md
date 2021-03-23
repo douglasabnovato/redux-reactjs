@@ -49,7 +49,6 @@ Compartilhar os states entre os componentes criados de forma mais organizada e c
 - [x] [Criar Styled Components Com React](https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/)
 - [x] [ant.design](https://ant.design/components/overview/)
 
-
 ### Documentação
 
 - [reactjs.org](https://pt-br.reactjs.org/docs/react-component.html)
